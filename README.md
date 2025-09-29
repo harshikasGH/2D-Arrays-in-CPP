@@ -1,13 +1,13 @@
-# 🧮 2D Arrays in C++
+# 2D Arrays in C++
 
-## 🎯 AIM
+## AIM
 To understand and implement two-dimensional arrays in C++, exploring their structure, operations, and applications in matrix manipulation and algorithmic problem-solving.
 
 ---
 
-## 📚 THEORY
+## THEORY
 
-### 📌 2D Arrays
+### 2D Arrays
 A 2D array is a grid-like data structure where elements are stored in rows and columns.  
 It is essentially an array of arrays, allowing representation of matrices and tabular data.
 
@@ -17,7 +17,7 @@ It is essentially an array of arrays, allowing representation of matrices and ta
 
 ---
 
-## 🔄 Common Operations
+## Common Operations
 
 | Operation         | Description |
 |-------------------|-------------|
@@ -30,19 +30,19 @@ It is essentially an array of arrays, allowing representation of matrices and ta
 
 ---
 
-## ⚙️ Best Practices and Optimization Tips
+## Best Practices and Optimization Tips
 
-✅ Validate matrix dimensions before performing operations.  
-✅ Use nested loops carefully to avoid index mismatches.  
-✅ Prefer modular code — break operations into functions for clarity.  
-✅ For large matrices, consider dynamic allocation or `std::vector`.  
-✅ Always initialize result matrices to avoid garbage values.  
+Validate matrix dimensions before performing operations.  
+Use nested loops carefully to avoid index mismatches.  
+Prefer modular code — break operations into functions for clarity.  
+For large matrices, consider dynamic allocation or `std::vector`.  
+Always initialize result matrices to avoid garbage values.  
 
 ---
 
-## 📋 Algorithms
+## Algorithms
 
-### ✅ Matrix Transpose
+### Matrix Transpose
 **Algorithm:**
 1. **Start**
 2. Declare matrix `a[r][c]`
@@ -53,7 +53,7 @@ It is essentially an array of arrays, allowing representation of matrices and ta
 
 ---
 
-### ✅ Matrix Addition
+### Matrix Addition
 **Algorithm:**
 1. **Start**
 2. Input two matrices of same dimensions
@@ -64,7 +64,7 @@ It is essentially an array of arrays, allowing representation of matrices and ta
 
 ---
 
-### ✅ Matrix Multiplication
+### Matrix Multiplication
 **Algorithm:**
 1. **Start**
 2. Input matrices `A[r1][c1]` and `B[r2][c2]`
@@ -76,7 +76,7 @@ It is essentially an array of arrays, allowing representation of matrices and ta
 
 ---
 
-### ✅ Diagonal Sum
+### Diagonal Sum
 **Algorithm:**
 1. **Start**
 2. Input square matrix `a[n][n]`
@@ -88,7 +88,7 @@ It is essentially an array of arrays, allowing representation of matrices and ta
 
 ---
 
-### ✅ Row Comparison
+### Row Comparison
 **Algorithm:**
 1. **Start**
 2. Input matrix `a[r][c]`
@@ -98,5 +98,5 @@ It is essentially an array of arrays, allowing representation of matrices and ta
 
 ---
 
-## 🧠 CONCLUSION
+## CONCLUSION
 Two-dimensional arrays are essential for representing structured data in C++. Mastering operations like transpose, addition, multiplication, and diagonal analysis builds a strong foundation for solving matrix-based problems. Through careful indexing, validation, and use of nested loops, programmers can manipulate 2D arrays efficiently. These skills are crucial for applications in scientific computing, graphics, and data analysis, forming a bridge to more advanced topics like dynamic memory, STL containers, and algorithm optimization.
